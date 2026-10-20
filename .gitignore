@@ -1,0 +1,17 @@
+/build*/
+/cmake-build-*/
+*.exe
+*.obj
+*.a
+*.lib
+*.pdb
+*.ilk
+*.dSYM/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/build.ninja
+/.ninja_deps
+/.ninja_log
+__pycache__/
+*.py[cod]

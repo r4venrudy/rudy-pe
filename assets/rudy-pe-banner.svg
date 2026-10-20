@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Rudy PE — offline Portable Executable inspector</title>
+  <desc id="desc">Dark navy security workbench banner with mint green header, PE section map, and offline analysis flow.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#172330" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="glow" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#55e0b6" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#55e0b6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="22" fill="#0b1118"/>
+  <rect width="1200" height="300" rx="22" fill="url(#grid)"/>
+  <path d="M0 0H580L340 300H0Z" fill="url(#glow)"/>
+  <rect x="38" y="35" width="6" height="230" rx="3" fill="#55e0b6"/>
+  <text x="74" y="72" fill="#55e0b6" font-family="Consolas,monospace" font-size="14" letter-spacing="3">RUDY SYSTEMS / BINARY TRIAGE</text>
+  <text x="70" y="150" fill="#f5f8fb" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="700">Rudy PE</text>
+  <text x="74" y="193" fill="#a9bed0" font-family="Segoe UI,Arial,sans-serif" font-size="23">Offline Portable Executable inspection</text>
+  <text x="74" y="244" fill="#55e0b6" font-family="Consolas,monospace" font-size="13" letter-spacing="1.5">C++20  /  PE32 + PE32+  /  JSON + SARIF</text>
+  <g transform="translate(735 47)" font-family="Consolas,monospace">
+    <rect x="0" y="0" width="405" height="205" rx="12" fill="#101a24" stroke="#263747"/>
+    <text x="24" y="31" fill="#86a0b4" font-size="12">STRUCTURE MAP · READ ONLY</text>
+    <rect x="24" y="51" width="110" height="36" rx="5" fill="#132933" stroke="#55e0b6"/>
+    <text x="39" y="74" fill="#b9f4e1" font-size="12">HEADERS</text>
+    <rect x="146" y="51" width="110" height="36" rx="5" fill="#132933" stroke="#55e0b6"/>
+    <text x="165" y="74" fill="#b9f4e1" font-size="12">SECTIONS</text>
+    <rect x="268" y="51" width="112" height="36" rx="5" fill="#132933" stroke="#55e0b6"/>
+    <text x="286" y="74" fill="#b9f4e1" font-size="12">IMPORTS</text>
+    <path d="M79 102v22m122-22v22m202-71h18v110h-40" fill="none" stroke="#55e0b6" stroke-width="2"/>
+    <path d="m73 119 6 7 6-7m110 0 6 7 6-7" fill="none" stroke="#55e0b6" stroke-width="2"/>
+    <rect x="24" y="139" width="300" height="39" rx="5" fill="#172330" stroke="#314659"/>
+    <text x="40" y="164" fill="#91b1c9" font-size="12">FINDINGS → JSON / SARIF</text>
+    <circle cx="360" cy="158" r="16" fill="#12382f" stroke="#55e0b6"/>
+    <path d="m352 158 6 6 11-13" fill="none" stroke="#55e0b6" stroke-width="2.5"/>
+  </g>
+</svg>
