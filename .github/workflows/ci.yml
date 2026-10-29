@@ -19,7 +19,7 @@ jobs:
         os: [ubuntu-latest, windows-latest, macos-latest]
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - name: Configure
         run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
       - name: Build
@@ -31,7 +31,7 @@ jobs:
     name: Address and undefined behavior sanitizers
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - name: Configure
         run: >-
           cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug
@@ -46,7 +46,7 @@ jobs:
     name: libFuzzer smoke test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - name: Configure with Clang
         run: >-
           CC=clang CXX=clang++ cmake -S . -B build
